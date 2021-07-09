@@ -38,4 +38,5 @@ jobs:
     - name: Build the Docker Image 
       run: docker build . --file Dockerfile --tag  samplenodejs
     - name: Push the Docker Image 
-      run: docker push hasinireddy24/samplenodejs
+      run: docker push hasinireddy24/samplenodejs:samplenodejs
+
